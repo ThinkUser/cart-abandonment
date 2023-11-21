@@ -4,7 +4,7 @@ library(tidyverse)
 library(googleAnalyticsR)
 library(janitor)
 library(googleAuthR)
-#gar_auth("~/tu.httr-oauth")
+#gar_auth("~/tu.httr-oauth")T
 gar_auth("C:/Users/ThinkErez/Documents/tu.httr-oauth")
 
 account_list <- ga_account_list()
